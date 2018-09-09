@@ -1,0 +1,33 @@
+body {
+  background: #0c0b0c;
+  background: -moz-linear-gradient(-45deg, #0c0b0c 0%, #1b191d 100%);
+  background: -webkit-linear-gradient(-45deg, #0c0b0c 0%, #1b191d 100%);
+  background: linear-gradient(135deg, #0c0b0c 0%, #1b191d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0b0c",
+    endColorstr="#1b191d",
+    GradientType=1);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  canvas {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  #gui {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 999;
+    color: #ccc;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
