@@ -11,7 +11,7 @@ Run
 to run the game
 
 Online
-[@codepen.io/Yasio](https://codepen.io/Yasio/pen/oPBybQ)
+[@codepen.io/Yasio](https://codepen.io/Yasio/full/oPBybQ/)
 
 ### Uses
 

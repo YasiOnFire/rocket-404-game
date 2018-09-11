@@ -1,7 +1,7 @@
 {
   "name": "rocket-404-game",
   "version": "1.0.0",
-  "description": "This is a 404 page of my portfolio page. The game in background is a port from a game i wrote in high school in Lua. :)",
+  "description": "This is a 404 page of my portfolio page. The game in the background is a port from a game i wrote in high school in Lua. :)",
   "main": "index.html",
   "scripts": {
     "app": "node server.js",
