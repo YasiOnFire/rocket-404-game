@@ -1,0 +1,30 @@
+{
+  "name": "rocket-404-game",
+  "version": "1.0.0",
+  "description": "This is a 404 page of my portfolio page. The game in background is a port from a game i wrote in high school in Lua. :)",
+  "main": "index.html",
+  "scripts": {
+    "app": "node server.js",
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Yasio@bitbucket.org/Yasio/rocket-404-game.git"
+  },
+  "keywords": [
+    "matter",
+    "p5"
+  ],
+  "author": "Yasio",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Yasio/rocket-404-game#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-sass-middleware": "^0.11.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

@@ -1,0 +1,42 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Roboto+Mono:400,700' rel='stylesheet')
+  link(rel='stylesheet' href='style.css')
+  title rocket-404-game
+  .wrp
+    h3
+      | 404
+    p
+      span.white Page not found.
+      br
+      | Go to 
+      a.glitch(href='https://yasio.pl' data-glitch='home page') home page
+      br
+      | &#x9;&#x9;&#x9;or play this 
+      em &quot;awesome game&quot;
+      |  :)
+    br
+    button#restartGame.btn.btn-primary.hidden
+      | Restart
+      .btn2
+  #gui
+    p#score
+      | Score: 
+      span 0
+      | m
+    p#hiscore
+      | Hi-Score: 
+      span 0
+      | m
+    p#time
+      | Fuel: 
+      span 100
+      | %
+    p#status Spam left click to fly
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js')
+  script(src='sketch.js')
